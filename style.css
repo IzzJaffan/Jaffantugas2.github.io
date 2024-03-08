@@ -1,0 +1,173 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.box {
+  position: absolute;
+  background-color: #f8ecdc;
+  left: 0;
+  right: 0;
+  padding: 8px;
+  width: 100%;
+  height: 55%;
+  top: 6rem;
+  z-index: 0;
+}
+
+.backround-highlight {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10px;
+  width: 100%;
+  height: 90%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: -1;
+  filter: brightness(0) saturate(100%) invert(89%) sepia(22%) saturate(375%) hue-rotate(349deg) brightness(99%) contrast(91%);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  position: relative;
+  left: 50px;
+  top: 18px;
+}
+.container .container-abtus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 11rem;
+}
+.container .container-abtus .highlight-product-img img {
+  margin-left: 100px;
+  width: 320px;
+  height: auto;
+  padding: 0.3rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5%;
+}
+.container .container-abtus .about-us {
+  margin-top: 120px;
+  margin-left: 200px;
+  margin-right: 100px;
+}
+.container .container-abtus .about-us .title {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.container .container-abtus .about-us .title span {
+  border-bottom: 4px solid sandybrown;
+  border-radius: 5%;
+}
+.container .container-abtus .about-us h3 {
+  font-size: 20px;
+}
+.container .container-abtus .about-us p {
+  color: gray;
+}
+.container .container-abtus .about-us .cta-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: sandybrown;
+  background-color: #2f2105;
+  font-size: 10px;
+  gap: 8px;
+  padding: 8px 20px;
+  border-radius: 1.5rem;
+}
+
+.special-menu {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+}
+.special-menu .title {
+  position: relative;
+  left: 85px;
+  margin-bottom: 30px;
+}
+.special-menu .title span {
+  border-bottom: 4px solid sandybrown;
+  border-radius: 5%;
+}
+.special-menu .card {
+  position: relative;
+  left: 70px;
+  width: calc(14rem + 60px);
+  height: 290px;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.5) 0rem 0.3rem 1rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+.special-menu .card .card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 213px;
+  width: 283px;
+  border-radius: 1rem;
+}
+.special-menu .card-body {
+  position: relative;
+  height: 9.4rem;
+}
+.special-menu .rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 10px;
+  bottom: 355px;
+  width: 4rem;
+  height: 1.5rem;
+  background-color: white;
+  border: 0.2rem solid rgba(160, 152, 152, 0.671);
+  border-radius: 3rem;
+}
+.special-menu .rating p {
+  position: relative;
+  font-weight: bold;
+  text-align: justify;
+}
+.special-menu .rating img {
+  position: relative;
+  top: 2px;
+  width: 15px;
+  height: 15px;
+}
+.special-menu .card-title {
+  position: relative;
+  bottom: 13px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 5px;
+}
+.special-menu .card-title span {
+  float: right;
+  padding-right: 15px;
+}
+.special-menu .card-subtitle {
+  position: relative;
+  color: gray;
+  padding-left: 5px;
+  bottom: 25px;
+}
+.special-menu .cart-icon {
+  position: relative;
+  float: right;
+  right: 20px;
+  bottom: 75px;
+  padding: 2px 5px;
+  background-color: sandybrown;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
